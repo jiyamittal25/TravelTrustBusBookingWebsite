@@ -18,7 +18,7 @@ main a{
     text-decoration: none;
 }
 main{
-    background-image: url(../../Downloads/background-bus.jpeg);
+    background-image: url("Images/backgroundbus.jpeg");
     height: 650px;
 }
 #container{

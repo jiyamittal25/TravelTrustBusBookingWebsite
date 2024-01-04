@@ -49,8 +49,8 @@ main a{
 }
 @keyframes change{
     0%{background-image: url("https://c4.wallpaperflare.com/wallpaper/142/527/588/buses-sunlight-everlasting-summer-wallpaper-thumb.jpg");}
-    50%{background-image: url("../Images/background2.jpg");}
-    100%{background-image: url("../Images/background\ of\ login.jpeg");}
+    50%{background-image: url("Images/background2.jpg");}
+    100%{background-image: url("Images/background\ of\ login.jpeg");}
 }
 .back{
     height: 600px;

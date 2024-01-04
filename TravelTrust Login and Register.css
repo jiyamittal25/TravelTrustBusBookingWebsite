@@ -157,7 +157,7 @@ input {
 }
 
 .overlay {
-	background-image:url('../../Downloads/background-bus.jpeg') ;
+	background-image:url("Images/backgroundbus.jpeg") ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;

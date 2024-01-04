@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 main{
-    background-image: url('../../Downloads/background-bus.jpeg');
+    background-image: url("Images/backgroundbus.jpeg");
     background-size:cover;
     height:650px;
     width:100%;
