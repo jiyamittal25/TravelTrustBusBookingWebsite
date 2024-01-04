@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#choose-card{
+    outline: none;
+    border: none;
+    border-bottom: 1px black solid;
+}
+#payby{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#card1{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 0 0 5px;
+    width: 45%;
+}
+/*.card{
+    width: 150px;
+}*/
+#cvv{
+    width: 30px;
+}
+.question-mark{
+    transform: scale(1.4);
+    color: red;
+}
+#pay{
+    background-color: red;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+#pay:hover{
+    background-color: rgb(230, 116, 116);
+}
+#cancel1{
+    background-color: red;
+    border-top: solid 3px #7f6c6c;
+    border-left: solid 3px #7f6c6c;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    cursor: pointer;
+}
+#cancel{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#cancel1:hover{
+    background-color: rgb(230, 116, 116);
+}
+#pay-cancel{
+    margin: 25px 0 0 450px;
+}
+td{
+    width: 340px;
+    height: 40px;
+    font-weight: 700;
+}
+#payment{
+    padding: 140px 0 0 10px;
+}
+main{
+    background-image: url(https://st2.depositphotos.com/4813335/11209/v/950/depositphotos_112093740-stock-illustration-red-vector-metal-background-with.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 610px;
+    width: 100%;
+}
+#expiry{
+    width: 45px;
+}
+#year{
+    width: 65px;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#home{
+    margin: 15px 0 0 3%;
+    font-size: 15px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#icons{
+    padding: 15px 0 0 45%;
+}
+#icon{
+    margin: 0 50px 0 0;
+    color: white;
+}
+#footer-content div{
+    display: inline-block;
+}
+#home a:hover{
+    color: red;
+}
+#icon:hover{
+    color: red;   
+}
+#contact{
+    margin: 15px 0 0 15%;
+    font-size: 15px;
+}
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: red;
+}

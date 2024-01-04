@@ -1,0 +1,59 @@
+#heading1{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 10px 0 0 30%;
+    color: black;
+    /*background-image: url(https://media.istockphoto.com/photos/christmas-backgrounds-picture-id1266532309?b=1&k=20&m=1266532309&s=170667a&w=0&h=hoIbOPq5NSQgdRajvX5lzEswt_jLmUMxqgJdDqtmZx0=);*/
+    height: 70px;
+    background-color: red;
+}
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+#credit{
+    font-size: 20px;
+    font-weight: 600;
+}
+#debit{
+    font-size: 20px;
+    font-weight: 600;
+}
+#UPI{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+#card1:hover{
+    width: 420px;
+    height: 220px;
+}
+#cards,#UPI{
+    background-color: lightgrey;
+}
+footer{
+    background-color: black;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#about{
+    color: grey;
+    font-weight: 700;
+}
+#contact{
+    color: grey;
+    font-weight: 700;
+    transform: translateY(-15px);
+}
+#info{
+    color: grey;
+    font-weight: 700;
+}
+footer table{
+    padding: 0 60px;
+}
+table a:hover{
+    color: red;
+}

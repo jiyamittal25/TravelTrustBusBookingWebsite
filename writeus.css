@@ -1,0 +1,176 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.required:after{
+    content:" *";
+    color: rgb(197, 4, 4);
+}
+html, body {
+    width: 100%;
+    height: 100%
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+section.contactDesign1 {
+    height: 100vh;
+    display: flex;
+    background-image: url("https://images.pexels.com/photos/3751007/pexels-photo-3751007.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+   
+}
+
+.contactDesign1 form {
+    background: #ffffff;
+    color: #232931;
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    padding-top: 2.5em;
+    box-shadow: 5px 5px 10px 2px #222;
+ 
+}
+
+.contactDesign1 form label {
+    color: #666
+}
+
+.contactDesign1 form #userInput {
+    width: 300px;
+    padding: 0 50px 50px 50px;
+    border-right: 1px solid #c9d6df
+}
+
+
+
+.contactDesign1 form #userInput hr {
+    margin-bottom: 1em;
+    background: #f63c04;
+    border: #f18284;
+    height: 3px;
+    width: 60px
+}
+
+.contactDesign1 form #userInput .formInput {
+    margin-bottom: 1.25em
+}
+
+.contactDesign1 form #userInput .formInput label {
+    display: block;
+    margin-bottom: .5em;
+    font-size: .75em
+}
+
+.contactDesign1 form #userInput .formInput input[type="text"], .contactDesign1 form #userInput .formInput input[type="email"] {
+    width: 100%;
+    font-size: 1em;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c9d6df;
+    color: #333;
+    padding-bottom: .25em
+}
+
+.contactDesign1 form #userInput .formInput .checkbox input {
+    position: absolute;
+    opacity: 0
+}
+
+.contactDesign1 form #userInput .formInput .checkbox .overlay {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid
+    
+
+}
+
+.contactDesign1 form #userInput .formInput .checkbox .icon {
+    color: #232931;
+    display: none
+}
+
+.contactDesign1 form #userInput .formInput .checkbox input:checked~.overlay {
+    background-color: #feadaf;
+    transform: rotate(0);
+    opacity: 1;
+    border: 2px solid #fc0e3c;
+    padding-left: 2px;
+    padding-top: 2px
+}
+
+.contactDesign1 form #userInput .formInput .checkbox input:checked~.overlay .icon {
+    display: block;
+    transform: scale(1.75)
+}
+
+.contactDesign1 form #userInput .formInput .text {
+    margin-left: 1.75em;
+    font-size: .85em
+}
+
+.contactDesign1 form #userMessage {
+    width: 400px;
+    display: flex;
+    flex-direction: column
+}
+
+.contactDesign1 form #userMessage label {
+    padding-left: 1.25em;
+    font-size: .75em;
+    margin: .5em 0
+}
+
+.contactDesign1 form #userMessage textarea {
+    padding-left: 1em;
+    resize: none;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    font-size: 1em
+}
+
+.contactDesign1 form #userMessage button {
+    height: 60px;
+    background: rgb(252, 112, 88);
+    border: 0;
+    color: #232931;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+img{
+    height:45px;
+    width:45px;
+}
+.contain{
+    font-size:2em;

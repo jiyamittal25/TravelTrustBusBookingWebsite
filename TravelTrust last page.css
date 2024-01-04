@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo1{
+    font-size: 30px;
+    color: red;
+}
+#logo2{
+    font-size: 25px;
+    color: white;  
+    font-weight: 100;
+}
+header{
+    padding: 20px 0 0 30px ;
+}
+main a{
+    text-decoration: none;
+}
+#success{
+    margin: 25px 0 0 20%;
+    height: 60px;
+    width: 600px;
+    background-color: rgba(0, 0, 0,0.2);
+}
+#text{
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding: 15px  0 0 0;
+}
+#booking{
+    padding: 150px 0 0 40px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #e6dbdb;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+}
+#happy{
+    padding:10px 0 0 138px;
+    font-size: 40px;
+    font-weight: 900;
+    color:#e6dbdb;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+}
+main{
+    margin-bottom: 10px;
+    background-image: url(https://wallpaper.dog/large/338358.jpg);
+    height: 608px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#home{
+    margin: 15px 0 0 3%;
+    font-size: 15px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#icons{
+    padding: 15px 0 0 70%;
+}
+#icon{
+    margin: 0 50px 0 0;
+    color: white;
+}
+#footer-content div{
+    display: inline-block;
+}
+#home a:hover{
+    color: red;
+}
+#icon:hover{
+    color: red;   
+}

@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo1{
+    font-size: 30px;
+    color: red;
+}
+#logo2{
+    font-size: 25px;
+    color: white;  
+    font-weight: 100;
+}
+header{
+    padding: 20px 0 0 30px ;
+}
+main a{
+    text-decoration: none;
+}
+main{
+    background-image: url(../../Downloads/background-bus.jpeg);
+    height: 650px;
+}
+#container{
+    height: 540px;
+    width: 55%;
+    margin: 0.7% 0 0 40%;
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 2%;
+}
+#payment-content{
+    font-size: 30px;
+    margin: 5px 0 5px 30%;
+    font-weight: 900;
+    color: white;
+}
+#payment{
+    margin: 0 0 0 5%;
+}
+#payment td{
+    height: 60px;
+    width: 600px;
+
+}
+#credit{
+    height: 50px;
+    width: 60px;
+    margin: 0 0 0 65%;
+}
+#credit-content, #debit-content, #paypal-content{
+    font-size: 20px;
+    color: white;
+}
+#debit{
+    height: 50px;
+    width: 60px;
+    margin: 0 0 0 66%;
+}
+#paypal{
+    height: 50px;
+    width: 60px;
+    margin: 0 0 0 71%;
+}
+#card1{
+    font-weight: 600;
+    font-size: 18px;
+    padding: 28px 0 0 5px;
+    width: 80%;
+}
+#cvv{
+    width: 30px;
+}
+.question-mark{
+    transform: scale(1.4);
+    color: red;
+}
+#pay{
+    background-color: red;
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+#pay:hover{
+    background-color: rgb(230, 116, 116);
+}
+#cancel1{
+    background-color: red;
+    border-top: solid 3px #7f6c6c;
+    border-left: solid 3px #7f6c6c;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    cursor: pointer;
+}
+#cancel{
+    color:white;
+    font-size: 18px;
+    text-decoration: none;
+}
+#cancel1:hover{
+    background-color: rgb(230, 116, 116);
+}
+#pay-cancel{
+    margin: 21px 0 0 450px;
+}
+td{
+    width: 340px;
+    height: 40px;
+    font-weight: 700;
+}
+#expiry{
+    width: 45px;
+}
+#year{
+    width: 65px;
+}
+.card{
+    margin: 0 0 0 5%;
+    color: white;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#home{
+    margin: 15px 0 0 3%;
+    font-size: 15px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#icons{
+    padding: 15px 0 0 45%;
+}
+#icon{
+    margin: 0 50px 0 0;
+    color: white;
+}
+#footer-content div{
+    display: inline-block;
+}
+#home a:hover{
+    color: red;
+}
+#icon:hover{
+    color: red;
+}
+#contact{
+    margin: 15px 0 0 15%;
+    font-size: 15px;
+}
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: red;
+}

@@ -1,0 +1,119 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-image: url(../../Downloads/background-bus.jpeg);
+    background-size:cover;
+    height: 650px;
+    width:100%;
+}
+#logo1{
+    font-size: 30px;
+    color: red;
+}
+#logo2{
+    font-size: 25px;
+    color: white;  
+    font-weight: 100;
+}
+.div1{
+    padding: 10px;
+    box-sizing: border-box;
+    width:875px;
+    height:585px;
+    background: rgba(0,0,0,0.1);
+    top: 7%;
+    left:30%;
+    position:absolute;
+    border-radius: 10px;
+} 
+.div2{
+    padding: 20px;
+    box-sizing: border-box;
+    width:800px;
+    height:50px;
+    background-color:transparent;
+    color:white;
+    top: 1%;
+    left:4%;
+    position:absolute;
+    font-size: 20px;
+}
+.div3{
+    padding: 20px;
+    box-sizing: border-box;
+    width:800px;
+    height:80px;
+    background:white;
+    color:black;
+    left:4%;
+    position:absolute;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.div4{
+    margin-top: 5px;
+    color:grey;
+    font-size: 16px;
+}
+button{
+    height: 40%;
+    background:red;
+    color:white;
+    font-size: 15px;
+    border-radius: 10px;
+    width:17%;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 62%;
+    left:83%;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+}
+button:active {
+	transform: scale(0.95);
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#home{
+    margin: 15px 0 0 3%;
+    font-size: 15px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#icons{
+    padding: 15px 0 0 45%;
+}
+#icon{
+    margin: 0 50px 0 0;
+    color: white;
+}
+#footer-content div{
+    display: inline-block;
+}
+#home a:hover{
+    color: red;
+}
+#icon:hover{
+    color: red;   
+}
+#contact{
+    margin: 15px 0 0 15%;
+    font-size: 15px;
+}
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: red;
+}

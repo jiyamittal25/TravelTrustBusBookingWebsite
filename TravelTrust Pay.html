@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTrust Pay</title>
+    <script src="https://kit.fontawesome.com/272edc0ed9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="TravelTrust Pay.css">
+    <link rel="icon" type="image/x-icon" href="../../Downloads/Logo (2).jpeg">
+</head>
+<body>
+    <main>
+    <div id="payment">
+        <div id="payby">Pay by
+            <select id="choose-card">
+                <option></option>
+                <option>Credit Card</option>
+                <option>Debit Card</option>
+                <option>PayPal</option>
+            </select>
+        </div>
+       <!-- <table>
+            <div id="card1">
+                Payment Options <hr>
+            </div>
+            <tr>
+                <td  class="card"><input type="radio" name="CardName">Credit Card</td>
+                <td  class="card"><input type="radio" name="CardName">Debit Card</td>
+                <td  class="card"><input type="radio" name="CardName">PayPal</td>
+            </tr>
+        </table>-->
+    <div id="card">
+        <div id="card1">
+            Card Details <hr>
+        </div>
+        <form action="TravelTrust last page.html">
+        <table>
+            <tr>
+                <td><label for="card-number" style="cursor: pointer;">Card Number</label></td>
+                <td><input type="number" id="card-number" minlength="15" maxlength="16" required></td>
+            </tr>
+            <tr>
+                <td><label for="expiry" style="cursor: pointer;">Expiry Date</label></td>
+                <td><input type="number" id="expiry" placeholder="MM" min="01" max="12" required><input type="number" placeholder="YYYY" id="year" min="2022" required>&ensp;<i class="far fa-question-circle question-mark"></i></td>
+            </tr>
+            <tr>
+                <td><label for="name" style="cursor: pointer;">Card Holders Name</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="cvv" style="cursor: pointer;">CVV</label></td>
+                <td><input type="password" id="cvv" inputmode="numeric" minlength="3" maxlength="3" required>&ensp;<i class="far fa-question-circle question-mark"></i></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="text" class="check">
+                    <span class="checkby">YA23S</span>
+                </td>
+            </tr>
+            <tr>
+        </table>
+        <div id="pay-cancel">
+            <button id="pay">Pay</button>
+            <span id="cancel1" style="padding: 3px; margin-left: 5px;">
+                <a href="" id="cancel">&ensp;Cancel&ensp;</a>
+            </span>
+           
+        </div>
+        </form>
+        <br><br>
+        <p>
+            <span style="letter-spacing: 0.2px; background-color: yellow;"> *Please do not click Back button/refresh the page/close the window while the transaction is processing.</span><br>
+            <span style="letter-spacing: 0.2px;  background-color: yellow;">This is a secure payment gateway.</span>
+        </p>
+    </div>
+</main>
+    <footer>
+        <div id="footer-content">
+            <div id="home">
+                <a href="Home Page of TravelTrust2.html">HOME</a>
+            </div>
+            <div id="contact">
+                <a href="">CONTACT US</a>
+            </div>
+            <div id="icons">
+                <a href="#"><i class="fab fa-facebook-f" id="icon"></i></a>
+                <a href="#"><i class="fab fa-instagram" id="icon"></i></a>
+                <a href="#"><i class="fab fa-twitter" id="icon"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--<script>
+        function CardInformation(){
+            var CardNumber = document.getElementById("card-number");
+            var ExpiryMonth = document.getElementById("expiry");
+            var ExpiryYear = document.getElementById("year");
+            var list=[];
+            list.push(CardNumber.value);
+            window.alert(`Card Number = ${list[0]}`);
+            var ask=confirm("Want to pay");
+            
+        }
+    </script>
+    <script>
+        var a= document.getElementsByClassName("check");
+        var b= document.getElementsByClassName("checkby");
+        if (a==b){
+            document.getElementsByClassName("check").removeElementListener
+        }
+
+    </script>-->
+</body>
+</html>

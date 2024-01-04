@@ -1,0 +1,404 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.head
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+}
+header{
+    padding: 20px 0 0 30px ;
+}
+.head:hover{
+    color: red;
+}
+#logo1{
+    font-size: 30px;
+    color: red;
+}
+#logo2{
+    font-size: 25px;
+    color: white;  
+    font-weight: 100;
+}
+main a{
+    text-decoration: none;
+}
+#safe{
+    color: white;
+    font-size: 50px;
+    padding: 100px 0 0 200px;
+    color: white;
+}
+#safe-content{
+    color: white;
+    padding-left: 200px;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+}
+#logo_of_login{
+    transform: translate(-3px,-2px) scale(1.3);
+    color: white;
+}
+#logo_of_login:hover{
+    color: red;
+}
+@keyframes change{
+    0%{background-image: url("https://c4.wallpaperflare.com/wallpaper/142/527/588/buses-sunlight-everlasting-summer-wallpaper-thumb.jpg");}
+    50%{background-image: url("../Images/background2.jpg");}
+    100%{background-image: url("../Images/background\ of\ login.jpeg");}
+}
+.back{
+    height: 600px;
+    width: 100%;
+    background-image: url("https://eurama.hu/wp-content/uploads/2017/02/valley-of-fire-1303617_960_720-960x530.jpg");
+    background-size: cover;
+    background-position: center;
+    font-weight: 900;
+    opacity: 1;
+    background-attachment: fixed;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+#to,#from{
+    width: 130px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#fromto{
+    background-color: white;
+    height: 50px;
+    width: 800px;
+    margin: 25px 20% 0 18%;
+    border: 2px solid black;
+}
+#fromto1{
+    width: cover;
+    text-align: center;
+}
+#search a{
+    color: white;
+    text-decoration: none;
+}
+#search{
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 16px;
+}
+#search:hover{
+    background-color: rgb(245, 76, 76);
+}
+#book{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+main div h3{
+    color: rgb(240 13 45);
+}
+#h1{
+    color:red;
+    font-weight: 900;
+    font-size: 80px;
+}
+#book1{
+    font-size: 38px;
+    font-weight: 900;
+}
+#bk{
+    height: 250px;
+    width: 100%;
+}
+#bene{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+#bene1{
+    font-size: 38px;
+    font-weight: 900;
+}
+#bene2{
+    font-size: 18px;
+    color: orangered;
+}
+#tick{
+    color: orangered;
+}
+#pay1{
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+#pay2{
+    font-size: 38px;
+    font-weight: 900;
+}
+#pay3{
+    color: orangered;
+    font-size: 18px;
+}
+#pay4{
+    list-style: none;
+}
+#des{
+    color:red;
+    font-size: 38px;
+    font-weight: 700;
+}
+#destination{
+    padding-top: 15px;
+}
+#des1{
+    background-image: url(https://images.pexels.com/photos/2870167/pexels-photo-2870167.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    height: 604px;
+    width: 420px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#des2{
+    background-image: url(https://static.toiimg.com/photo/msid-86454434,width-96,height-65.cms);
+    height: 300px;
+    width: 832px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#des3{
+    background-image: url(https://edge.ixigo.com/ixi-api/img/511ce57be4b0d051864ad08b_600x315.jpg);
+    height: 300px;
+    width: 416px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#des4{
+    background-image: url(https://images.pexels.com/photos/10785532/pexels-photo-10785532.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 604px;
+    width: 412px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+    cursor: pointer;
+}
+#des5{
+    background-image: url(https://ychef.files.bbci.co.uk/976x549/p0b16s27.jpg);
+    height: 300px;
+    width: 840px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.dest1{
+    color: white;
+    background-size: cover;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+}
+#des1hover{
+    height: 604px;
+    width: 420px;
+    background-color: rgba(235, 23, 23,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 714px;
+    left: 3px;
+    transition: all 0.5s ease-in-out;
+}
+#des1hover:hover{
+    opacity: 1;
+}
+#des1hover .content{
+    padding: 30% 0 0 1%;
+    color: white;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 20px; 
+}
+#des2hover{
+    height: 300px;
+    width: 832px;
+    background-color: rgba(235, 23, 23,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 714px;
+    left: 427px;
+    transition: all 0.5s ease-in-out;
+}
+#des2hover:hover{
+    opacity: 1;
+}
+#des2hover .content{
+    padding: 5% 0 0 1%;
+    color: white;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 20px; 
+}
+#des3hover{
+    height: 302px;
+    width: 416px;
+    background-color: rgba(235, 23, 23,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 1017px;
+    left: 428px;
+    transition: all 0.5s ease-in-out;
+}
+#des3hover:hover{
+    opacity: 1;
+}
+#des3hover .content{
+    padding: 8% 0 0 1%;
+    color: white;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 20px; 
+}
+#des4hover{
+    height: 604px;
+    width: 412px;
+    background-color: rgba(235, 23, 23,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 1017px;
+    left: 847px;
+    transition: all 0.5s ease-in-out;
+}
+#des4hover:hover{
+    opacity: 1;
+}
+#des4hover .content{
+    padding: 30% 0 0 1%;
+    color: white;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 20px; 
+}
+#des5hover{
+    height: 300px;
+    width: 840px;
+    background-color: rgba(235, 23, 23,0.6);
+    opacity: 0;
+    position: absolute;
+    top: 1322px;
+    left: 3px;
+    transition: all 1s ease-in-out;
+}
+#des5hover:hover{
+    opacity: 1;
+}
+#des5hover .content{
+    padding: 5% 0 0 1%;
+    color: white;
+    letter-spacing: 0.3px;
+    word-spacing: 1px;
+    font-size: 20px; 
+}
+#reviews{
+    background-image: url('https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+    height: 620px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+#happy{
+    padding-top: 30px;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    font-family:  monospace;
+    font-weight: 700;
+}
+.client{
+    display: inline-block;
+}
+#photo{
+    height: 100px;
+    width: 100px;
+    margin: 10px 0 0 100px;
+    border-radius: 50%;
+}
+#client-review{
+    color: white;
+    margin: 40px 10px 0 10px;
+    font-size: 18px;
+}
+#client{
+    height: 400px;
+    width: 300px;
+    background-color: rgba(14, 12, 12, 0.3);
+    margin: 50px 0 0 80px ;
+    border-radius: 2%;
+}
+#client:hover{
+    transform: translateY(-20px);
+}
+.star{
+    text-align: center;
+    color: red;
+}
+footer{
+    background-color: black;
+    width: 100%;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+#about{
+    color: grey;
+    font-weight: 700;
+}
+#info{
+    color: grey;
+    font-weight: 700;
+}
+footer table{
+    padding: 0 60px;
+}
+table a:hover{
+    color: red;
+}
+#icons{
+    padding: 15px 0 0 25%;
+}
+.icon{
+    margin: 0 50px 0 0;
+    color: white;
+    transform: scale(1.2);
+    height: 24px;
+    width: 30px;
+    border: solid 1px lightgrey;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 50%;
+}
+#icon1:hover{
+	background-color: #4267B2;
+}
+#icon2:hover{
+	background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);;
+}
+#icon3:hover{
+	background-color:  #00acee;
+}

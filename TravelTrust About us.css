@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    height: 62px;
+    width: 100%;
+}
+.head:hover{
+    color: black;
+}
+#about1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.1;
+    background-image: url(https://media.istockphoto.com/photos/christmas-backgrounds-picture-id1266532309?b=1&k=20&m=1266532309&s=170667a&w=0&h=hoIbOPq5NSQgdRajvX5lzEswt_jLmUMxqgJdDqtmZx0=);
+    height: 60px;
+    width: 100%;
+    padding: 20px 0;
+}
+#about2{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.1;
+}
+#benefits{
+    background-color: lightgray;
+}
+#bene{
+    color: red;
+    font-weight: 700;
+    font-size: 25px;
+}
+#bene1{
+    font-size: 38px;
+    font-weight: 900;
+}
+#bene2{
+    font-size: 18px;
+}
+#tick{
+    color: orangered;
+}
+#promises{
+    border-width:2px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+#pro caption{
+    font-size: 40px;
+    font-weight: 800;
+    color: red;
+}
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+#home{
+    margin: 15px 0 0 3%;
+    font-size: 15px;
+}
+#home a{
+    color: white;
+    text-decoration: none;
+}
+#icons{
+    padding: 15px 0 0 45%;
+}
+#icon{
+    margin: 0 50px 0 0;
+    color: white;
+}
+#footer-content div{
+    display: inline-block;
+}
+#home a:hover{
+    color: red;
+}
+#icon:hover{
+    color: red;   
+}
+#contact{
+    margin: 15px 0 0 15%;
+    font-size: 15px;
+}
+#contact a{
+    color: white;
+    text-decoration: none;
+}
+#contact a:hover{
+    color: red;
+}
